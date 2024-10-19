@@ -1,10 +1,11 @@
 body {
-    margin: 0;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
+    
 }
 
 #calculator {
@@ -16,6 +17,7 @@ body {
 }
 
 #display {
+    margin-top: 30px;
     width: 100%;
     padding: 20px;
     font-size: 5rem;
@@ -23,6 +25,7 @@ body {
     border: none;
     background-color: hsl(0, 0%, 20%);
     color: white;
+    border-radius:15px 
 }
 
 #keys {
